@@ -33,7 +33,7 @@
               <img src="Assets/logo.svg" alt="" class="w-[195px] h-[30px]" />
             </a>
           </div>
-          <!-- search bar -->
+          <!-- search box -->
           <div
             id="search-container"
             class="flex bg-[#f0f0f1] w-[600px] h-[44px] items-center px-[16px] gap-[16px] rounded-[4px]"
@@ -41,7 +41,8 @@
             <div>
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div id="search-box" class="w-full flex items-center">
+            <!-- search bar -->
+            <div id="search-box" class="w-6/12 flex items-center">
               <input
                 placeholder="جستجو"
                 type="search"
@@ -52,7 +53,24 @@
           </div>
         </div>
         <!-- left navigation bar -->
-        <div class="flex justify-end"></div>
+        <div class="flex justify-end w-6/12 h-auto divide-black">
+          <!-- notification and signin BTN -->
+          <div class="flex items-center ml-[10px]">
+            <a href="#">
+              <i class="fa-regular fa-bell text-[24px]"></i>
+            </a>
+            <button class="flex justify-center items-center w-[143px] h-[40px] text-[12px] border-[2px] text-black rounded-[7px] mr-[10px]">
+              <div class="ml-[8px]">
+                <i class="fa-solid fa-right-from-bracket text-[19px]"></i>
+              </div >
+              <p>ورود | ثبت نام</p>
+            </button>
+          </div>
+          <!-- shopping card -->
+          <div class="text-[24px]">
+            <i class="fa-solid fa-shop"></i>
+          </div>
+        </div>
       </div>
       <!-- this is second bot section in navigation -->
       <div class="botSec flex justify-between text-[12px] mb-[15px]">
