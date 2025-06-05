@@ -27,6 +27,15 @@
 }
 
 /* options section styles */
+.options{
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 80rem;
+  margin: 0 auto;
+}
 .options > li{
   display: flex;
   flex-wrap: wrap;
