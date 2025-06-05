@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* offer slider swiper style */
 
@@ -21,4 +24,45 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* options section styles */
+.options > li{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.options > li > img{
+  width: 52px;
+  height: 52px;
+}
+.options > li > p{
+  text-align: center;
+}
+/* last options li of options sec */
+.last-options{
+  width: 50px !important;
+
+}
+/* more option icon */
+.more-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f1;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+}
+.more-icon > div{
+  background-color: #92959b;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.more-icon > div:nth-child(2){
+  margin: 0 4px;
 }
