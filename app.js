@@ -9,3 +9,10 @@ Alpine.start();
 document.getElementById("search-container").addEventListener("click", function () {
     document.getElementById("search-input").focus();
 });
+
+// offer slider swiper scripts
+    let swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
