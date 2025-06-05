@@ -4,7 +4,6 @@
 @tailwind utilities;
 
 /* offer slider swiper style */
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -25,7 +24,6 @@
   height: 100%;
   object-fit: cover;
 }
-
 /* options section styles */
 .options{
   display: flex;
@@ -54,7 +52,6 @@
 /* last options li of options sec */
 .last-options{
   width: 50px !important;
-
 }
 /* more option icon */
 .more-icon{
@@ -74,4 +71,10 @@
 }
 .more-icon > div:nth-child(2){
   margin: 0 4px;
+}
+/* product offer image section */
+.product-image > img{
+  width: 300px;
+  
+  border-radius: 16px;
 }
