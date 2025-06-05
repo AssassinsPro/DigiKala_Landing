@@ -31,7 +31,7 @@
   list-style: none;
   justify-content: space-around;
   align-items: center;
-  width: 80rem;
+  width: 85rem;
   margin: 0 auto;
 }
 .options > li{
@@ -74,7 +74,7 @@
 }
 /* product offer image section */
 .product-image > img{
-  width: 300px;
+  width: 330px;
   
   border-radius: 16px;
 }
