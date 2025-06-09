@@ -34,7 +34,9 @@
     <!-- navigation bar -->
     <nav class="border-b-[1px] px-[16px]">
       <!-- top section  -->
-      <div class="flex flex-nowrap py-[12px] items-center justify-between">
+      <div
+        class="flex flex-nowrap py-[12px] items-center justify-between sticky"
+      >
         <!-- right navigation -->
         <div class="flex p-3 justify-start gap-[20px] items-center">
           <!-- digikala logo -->
@@ -765,7 +767,7 @@
         >
           <span class="text-[17px] font-bold">کیف و کاور گوشی</span>
           <span class="text-[12px] text-stone-500">بر اساس سلیقه شما</span>
-          <div class="topEle flex ">
+          <div class="topEle flex">
             <div>
               <img class="w-[120px]" src="./Assets/phoneEle5.jpg" alt="" />
             </div>
@@ -966,21 +968,21 @@
         class="w-[85rem] rounded-[16px] border grid grid-cols-4 divide-x taste"
       >
         <!-- sec 1 -->
-        <div>
+        <div class="taste">
           <!-- title -->
-          <div>
+          <div class="taste-title">
             <h4>ساعت هوشمند</h4>
             <p>بر اساس سلیقه شما</p>
           </div>
           <!-- images -->
-          <div>
+          <div class="taste-images">
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
           </div>
           <!-- see more btn -->
-          <div>
+          <div class="taste-btn">
             <div>
               <span>مشاهده بیشتر</span>
             </div>
@@ -990,22 +992,21 @@
           </div>
         </div>
         <!-- sec 2 -->
-                <!-- sec 1 -->
-        <div>
+        <div class="taste">
           <!-- title -->
-          <div>
+          <div class="taste-title">
             <h4>ساعت هوشمند</h4>
             <p>بر اساس سلیقه شما</p>
           </div>
           <!-- images -->
-          <div>
+          <div class="taste-images">
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
           </div>
           <!-- see more btn -->
-          <div>
+          <div class="taste-btn">
             <div>
               <span>مشاهده بیشتر</span>
             </div>
@@ -1015,22 +1016,21 @@
           </div>
         </div>
         <!-- sec 3 -->
-                <!-- sec 1 -->
-        <div>
+        <div class="taste">
           <!-- title -->
-          <div>
+          <div class="taste-title">
             <h4>ساعت هوشمند</h4>
             <p>بر اساس سلیقه شما</p>
           </div>
           <!-- images -->
-          <div>
+          <div class="taste-images">
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
           </div>
           <!-- see more btn -->
-          <div>
+          <div class="taste-btn">
             <div>
               <span>مشاهده بیشتر</span>
             </div>
@@ -1040,22 +1040,21 @@
           </div>
         </div>
         <!-- sec 4 -->
-                <!-- sec 1 -->
-        <div>
+        <div class="taste">
           <!-- title -->
-          <div>
+          <div class="taste-title">
             <h4>ساعت هوشمند</h4>
             <p>بر اساس سلیقه شما</p>
           </div>
           <!-- images -->
-          <div>
+          <div class="taste-images">
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
             <img src="Assets/watch-taste.jpg" alt="" />
           </div>
           <!-- see more btn -->
-          <div>
+          <div class="taste-btn">
             <div>
               <span>مشاهده بیشتر</span>
             </div>
@@ -1068,7 +1067,9 @@
     </section>
     <!-- hot! -->
     <section class="w-full flex items-center flex-col text-center">
-      <div class="text-[20px] p-[30px]"><span>داغ ترین چند ساعت گذشته</span></div>
+      <div class="text-[20px] p-[30px]">
+        <span>داغ ترین چند ساعت گذشته</span>
+      </div>
       <div
         class="mostSellContainer flex border border-stone-300 rounded-[20px] w-[80rem] h-[25rem]"
       >
@@ -1206,19 +1207,183 @@
       </div>
     </section>
     <!-- readable -->
-     <section class="w-full flex flex-col items-center">
+    <section class="w-full flex flex-col items-center">
       <div class="w-[80rem] flex justify-between">
         <div class="font-bold"><p>خواندنی ها</p></div>
-        <div class="text-[13px] text-sky-400 font-semibold"><a href="#">مطالب بیشتر در دیجی‌کالا مگ</a></div>
+        <div class="text-[13px] text-sky-400 font-semibold">
+          <a href="#">مطالب بیشتر در دیجی‌کالا مگ</a>
+        </div>
       </div>
       <div class="w-[80-rem]">
         <div>
-          <div><img class="w-[350px]" src="./Assets/read.webp" alt=""></div>
+          <div><img class="w-[350px]" src="./Assets/read.webp" alt="" /></div>
           <div class="text-[]"><p>بهترین مارک پنکه سقفی ایرانی و خارجی</p></div>
         </div>
       </div>
-     </section>
-
+    </section>
+    <!-- footer -->
+    <section class="flex justify-center mt-[20px]">
+      <div class="w-[92rem]">
+        <!-- logo - go to top btn -->
+        <div class="flex justify-between w-full">
+          <!-- logo -->
+          <div>
+            <img class="w-[195px] h-[30px]" src="Assets/logo.svg" alt="" />
+          </div>
+          <!-- go to top btn -->
+          <button
+            class="flex justify-center items-center border-2 bg-white px-[16px] py-[10px] rounded-[16px]"
+          >
+            <span class="text-neutral-400 ml-2">بازگشت به بالا</span>
+            <div class="w-[24px] h-[24px]">
+              <i class="fa-solid fa-chevron-up text-neutral-400"></i>
+            </div>
+          </button>
+        </div>
+        <!-- support -->
+        <div class="my-[12px] flex text-neutral-700">
+          <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
+          <div class="text-neutral-400 px-5">|</div>
+          <p>۰۲۱-۹۱۰۰۰۱۰۰</p>
+          <div class="text-neutral-400 px-5">|</div>
+          <p>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+        </div>
+        <!-- benefits -->
+        <div class="flex justify-around my-8">
+          <!-- card 1 -->
+          <div class="flex justify-center flex-wrap">
+            <!-- image -->
+            <div class="w-full flex justify-center">
+              <img src="Assets/express-delivery.svg" alt="" />
+            </div>
+            <!-- text -->
+            <div class="w-full flex justify-center">
+              <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="flex justify-center flex-wrap">
+            <!-- image -->
+            <div class="w-full flex justify-center">
+              <img src="Assets/express-delivery.svg" alt="" />
+            </div>
+            <!-- text -->
+            <div class="w-full flex justify-center">
+              <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="flex justify-center flex-wrap">
+            <!-- image -->
+            <div class="w-full flex justify-center">
+              <img src="Assets/express-delivery.svg" alt="" />
+            </div>
+            <!-- text -->
+            <div class="w-full flex justify-center">
+              <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="flex justify-center flex-wrap">
+            <!-- image -->
+            <div class="w-full flex justify-center">
+              <img src="Assets/express-delivery.svg" alt="" />
+            </div>
+            <!-- text -->
+            <div class="w-full flex justify-center">
+              <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="flex justify-center flex-wrap">
+            <!-- image -->
+            <div class="w-full flex justify-center">
+              <img src="Assets/express-delivery.svg" alt="" />
+            </div>
+            <!-- text -->
+            <div class="w-full flex justify-center">
+              <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+            </div>
+          </div>
+        </div>
+        <!-- all optoins -->
+        <div class="flex mt-8">
+          <!-- with digikala -->
+          <div class="w-1/4 all-options">
+            <h3>با دیجیکالا</h3>
+            <p>اتاق خبر دیجیکالا</p>
+            <p>اتاق خبر دیجیکالا</p>
+            <p>اتاق خبر دیجیکالا</p>
+            <p>اتاق خبر دیجیکالا</p>
+            <p>اتاق خبر دیجیکالا</p>
+            <p>اتاق خبر دیجیکالا</p>
+          </div>
+          <!-- Customer service -->
+          <div class="w-1/4 all-options">
+            <h3>خدمات مشتریان</h3>
+            <p>پاسخ به پرسش های متعدد</p>
+            <p>پاسخ به پرسش های متعدد</p>
+            <p>پاسخ به پرسش های متعدد</p>
+            <p>پاسخ به پرسش های متعدد</p>
+            <p>پاسخ به پرسش های متعدد</p>
+          </div>
+          <!-- Buying Guide from Digikala -->
+          <div class="w-1/4 all-options">
+            <h3>راهنمای خرید از دیجی‌کالا</h3>
+            <p>نحوه ثبت سفارش</p>
+            <p>نحوه ثبت سفارش</p>
+            <p>نحوه ثبت سفارش</p>
+          </div>
+          <!-- stay with us -->
+          <div class="w-1/4 all-options">
+            <!-- social media -->
+            <div>
+              <h3>همراه ما باشید!</h3>
+              <!-- icons -->
+              <div class="mt-2">
+                <i
+                  class="fa-brands fa-instagram text-neutral-500 ml-6 text-[40px]"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram text-neutral-500 ml-6 text-[40px]"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram text-neutral-500 ml-6 text-[40px]"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram text-neutral-500 ml-6 text-[40px]"
+                ></i>
+              </div>
+            </div>
+            <!-- send E-mail -->
+            <div class="mt-6">
+              <h3>با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</h3>
+              <div class="mt-2 flex">
+                <!-- search bar -->
+                <div class="flex justify-between items-center">
+                  <div
+                    class="w-[261.175px] h-[48px] bg-[#f0f0f1] rounded-md flex items-center justify-center"
+                  >
+                    <input
+                      class="cursor-default border-none outline-none w-10/12 bg-[#f0f0f1] text-[12px] font-black text-neutral-700"
+                      type="email"
+                      placeholder="ایمیل شما"
+                    />
+                  </div>
+                  <div class="w-[20.163px] text-white m-2">
+                    <button
+                      class="bg-[#e0e0e2] rounded-md flex items-center justify-center px-[16px] py-[12px]"
+                    >
+                      ثبت
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="app.js">
             //import swiper
                   import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
