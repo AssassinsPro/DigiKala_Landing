@@ -20,3 +20,18 @@ var swiper = new Swiper(".mySwiper", {
 });
 // hadis swiper
 
+
+
+ let lastScrollY = window.scrollY;
+  const botSec = document.getElementById('botSec');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > lastScrollY) {
+      // Scrolling down
+      botSec.classList.add('hidden');
+    } else {
+      // Scrolling up
+      botSec.classList.remove('hidden');
+    }
+    lastScrollY = window.scrollY;
+  });
