@@ -35,3 +35,10 @@ var swiper = new Swiper(".mySwiper", {
     }
     lastScrollY = window.scrollY;
   });
+
+   const scrollContainer = document.getElementById('superScroll');
+
+  scrollContainer.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    scrollContainer.scrollLeft += e.deltaY;
+  });
